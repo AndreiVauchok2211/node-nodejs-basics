@@ -1,5 +1,6 @@
 
 const fs = require('fs');
+// import fs from 'fs';
 
 
 const create = () => {
@@ -8,7 +9,7 @@ const create = () => {
         __dirname + '/files/flesh.txt',
         'I am fresh and young',
         (err) => {
-            if(err) throw err
+            if(err) throw new Error('Fs operation failed');
             
         }
     )
