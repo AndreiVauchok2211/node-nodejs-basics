@@ -6,7 +6,7 @@ const fs = require('fs');
 const create = () => {
     // Write your code here 
    fs.writeFile(
-        __dirname + '/files/flesh.txt',
+        __dirname + '/files/fresh.txt',
         'I am fresh and young',
         (err) => {
             if(err) throw new Error('Fs operation failed');
