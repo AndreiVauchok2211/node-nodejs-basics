@@ -1,5 +1,4 @@
 const fs = require("fs");
-const path = require("path");
 
 const sourseFolderPath = __dirname + "/files";
 const newFolderPath = __dirname + "/files_copy";
